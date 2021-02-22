@@ -176,8 +176,7 @@ print(dowjones_stocks.head())
 # In[25]:
 
 
-ax = sns.violinplot()
-sns.violinplot(x='Quarter', y='Price', data=netflix_stocks_quarterly)
+ax = sns.violinplot(x='Quarter', y='Price', data=netflix_stocks_quarterly)
 ax.set_title('Distribution of 2017 Netflix Stock Prices by Quarter')
 plt.ylabel('Closing Stock Price')
 plt.xlabel('Business Quarters in 2017')
